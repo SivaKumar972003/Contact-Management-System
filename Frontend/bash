@@ -1,0 +1,11 @@
+//Frontend Code:
+
+npx create-react-app frontend
+cd frontend
+npm install @mui/material @emotion/react @emotion/styled axios
+
+//Backend code:
+
+mkdir backend && cd backend
+npm init -y
+npm install express mongoose body-parser cors nodemon
